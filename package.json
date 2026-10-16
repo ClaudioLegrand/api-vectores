@@ -1,0 +1,27 @@
+{
+  "name": "api-vectores",
+  "version": "1.0.0",
+  "description": "API REST en Node.js que convierte texto en embeddings mediante IA y los almacena en PostgreSQL utilizando pgvector.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudioLegrand/api-vectores.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ClaudioLegrand/api-vectores/issues"
+  },
+  "homepage": "https://github.com/ClaudioLegrand/api-vectores#readme",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "openai": "^7.34.0",
+    "pg": "^8.23.1"
+  }
+}
